@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Edge browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Edge browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Edge browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Edge browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Edge browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44096" started-at="2021-11-13T23:09:31 IST" finished-at="2021-11-13T23:10:15 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44096" started-at="2021-11-13T23:09:31 IST" finished-at="2021-11-13T23:10:15 IST">
+      <class name="TestScripts.LoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestScripts.LoginTest@eafc191]" name="beforeClass" is-config="true" duration-ms="100" started-at="2021-11-13T23:09:31 IST" finished-at="2021-11-13T23:09:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="brforeMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="brforeMethod" is-config="true" duration-ms="9" started-at="2021-11-13T23:09:31 IST" finished-at="2021-11-13T23:09:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testBlankEmailandPasswordLogin()[pri:1, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="preCondition" is-config="true" duration-ms="10897" started-at="2021-11-13T23:09:31 IST" finished-at="2021-11-13T23:09:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://hotel.testplanisphere.dev/ja/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testBlankEmailandPasswordLogin()[pri:1, instance:TestScripts.LoginTest@eafc191]" name="testBlankEmailandPasswordLogin" duration-ms="1788" started-at="2021-11-13T23:09:42 IST" finished-at="2021-11-13T23:09:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankEmailandPasswordLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-13T23:09:44 IST" finished-at="2021-11-13T23:09:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBlankEmailandPasswordLogin status=SUCCESS method=LoginTest.testBlankEmailandPasswordLogin()[pri:1, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TestScripts.LoginTest@eafc191]" name="postCondition" is-config="true" duration-ms="1340" started-at="2021-11-13T23:09:44 IST" finished-at="2021-11-13T23:09:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="brforeMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="brforeMethod" is-config="true" duration-ms="0" started-at="2021-11-13T23:09:45 IST" finished-at="2021-11-13T23:09:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testBlankEmailLogin()[pri:2, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="preCondition" is-config="true" duration-ms="4240" started-at="2021-11-13T23:09:45 IST" finished-at="2021-11-13T23:09:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://hotel.testplanisphere.dev/ja/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testBlankEmailLogin()[pri:2, instance:TestScripts.LoginTest@eafc191]" name="testBlankEmailLogin" duration-ms="1313" started-at="2021-11-13T23:09:50 IST" finished-at="2021-11-13T23:09:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankEmailLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-13T23:09:51 IST" finished-at="2021-11-13T23:09:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBlankEmailLogin status=SUCCESS method=LoginTest.testBlankEmailLogin()[pri:2, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TestScripts.LoginTest@eafc191]" name="postCondition" is-config="true" duration-ms="1299" started-at="2021-11-13T23:09:51 IST" finished-at="2021-11-13T23:09:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="brforeMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="brforeMethod" is-config="true" duration-ms="1" started-at="2021-11-13T23:09:52 IST" finished-at="2021-11-13T23:09:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testBlankPasswordLogin()[pri:3, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="preCondition" is-config="true" duration-ms="4389" started-at="2021-11-13T23:09:52 IST" finished-at="2021-11-13T23:09:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://hotel.testplanisphere.dev/ja/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testBlankPasswordLogin()[pri:3, instance:TestScripts.LoginTest@eafc191]" name="testBlankPasswordLogin" duration-ms="1329" started-at="2021-11-13T23:09:57 IST" finished-at="2021-11-13T23:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankPasswordLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-13T23:09:58 IST" finished-at="2021-11-13T23:09:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBlankPasswordLogin status=SUCCESS method=LoginTest.testBlankPasswordLogin()[pri:3, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TestScripts.LoginTest@eafc191]" name="postCondition" is-config="true" duration-ms="1105" started-at="2021-11-13T23:09:58 IST" finished-at="2021-11-13T23:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="brforeMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="brforeMethod" is-config="true" duration-ms="1" started-at="2021-11-13T23:09:59 IST" finished-at="2021-11-13T23:09:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testInvalidEmailandPasswordLogin()[pri:4, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="preCondition" is-config="true" duration-ms="4160" started-at="2021-11-13T23:09:59 IST" finished-at="2021-11-13T23:10:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://hotel.testplanisphere.dev/ja/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvalidEmailandPasswordLogin()[pri:4, instance:TestScripts.LoginTest@eafc191]" name="testInvalidEmailandPasswordLogin" duration-ms="1291" started-at="2021-11-13T23:10:03 IST" finished-at="2021-11-13T23:10:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailandPasswordLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-13T23:10:04 IST" finished-at="2021-11-13T23:10:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidEmailandPasswordLogin status=SUCCESS method=LoginTest.testInvalidEmailandPasswordLogin()[pri:4, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TestScripts.LoginTest@eafc191]" name="postCondition" is-config="true" duration-ms="1121" started-at="2021-11-13T23:10:04 IST" finished-at="2021-11-13T23:10:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="preCondition" is-config="true" duration-ms="4491" started-at="2021-11-13T23:10:06 IST" finished-at="2021-11-13T23:10:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://hotel.testplanisphere.dev/ja/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to URLhttps://hotel.testplanisphere.dev/ja/login.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="brforeMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="brforeMethod" is-config="true" duration-ms="0" started-at="2021-11-13T23:10:06 IST" finished-at="2021-11-13T23:10:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testValidLogin()[pri:5, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method status="PASS" signature="testValidLogin()[pri:5, instance:TestScripts.LoginTest@eafc191]" name="testValidLogin" duration-ms="3876" started-at="2021-11-13T23:10:10 IST" finished-at="2021-11-13T23:10:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.LoginTest@eafc191]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-13T23:10:14 IST" finished-at="2021-11-13T23:10:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:5, instance:TestScripts.LoginTest@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TestScripts.LoginTest@eafc191]" name="postCondition" is-config="true" duration-ms="1080" started-at="2021-11-13T23:10:14 IST" finished-at="2021-11-13T23:10:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestScripts.LoginTest@eafc191]" name="afterClass" is-config="true" duration-ms="225" started-at="2021-11-13T23:10:15 IST" finished-at="2021-11-13T23:10:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestScripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

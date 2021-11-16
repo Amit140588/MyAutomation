@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- 	<listeners>
+		<listener class-name="com.abitnow.Generic.MyTestNGListener" />
+	</listeners> -->
+
+	<test name="Test">
+		<parameter name="browser" value="Edge" />
+		<parameter name="baseurl" value="https://hotel.testplanisphere.dev/ja/login.html" />
+
+
+		<classes>
+			<class name="TestScripts.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
